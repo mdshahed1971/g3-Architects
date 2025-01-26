@@ -325,7 +325,8 @@ margin-bottom: 50px;
 .s-img{
     display: flex;
     justify-content: center;
-    gap: 100px;
+    align-items: center;
+    gap: 80px;
 }
 /* sponsor end */
 /* footer start */
