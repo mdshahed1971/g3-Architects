@@ -229,6 +229,7 @@ font-weight: 400;
 .facts-img{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .award{
     text-align: center;

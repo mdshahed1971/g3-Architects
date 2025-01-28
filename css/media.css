@@ -27,73 +27,226 @@
     margin-bottom: 22px;
     }
     .b-btn{
-        padding: 8px 10px;
+        padding: 6px 8px;
         font-size: 16px;
     }
+    .b-img img{
+        margin-top: 22px;
+    margin-bottom: -1px;
+    }
     /* banner end */
+    .enjoy h2{
+        font-size: 26px;
+    }
+    .enjoy p{
+        margin-top: 17px;
+        margin-bottom: 22px;
+    }
+    .version{
+        font-size: 16px;
+        padding: 8px;
+    }
+    .version h4{
+        font-size: 18px;
+    }
+    .builder{
+        font-size: 16px;
+        padding: 8px;
+    }
+    .builder h4{
+        font-size: 18px;
+    }
+    .edit{
+        font-size: 16px;
+        padding: 8px;
+    }
+    .edit h4{
+        font-size: 18px;
+    }
+    .love-img img{
+        width: 100%;
+    }
+    .facts-content{
+        margin-bottom: 45px;
+        margin-left:30px;
+    }
+    .facts-content h2{
+        font-weight: 700;
+        margin-bottom: 10px;
+        font-size: 32px;
+    }
+    .facts-img{
+        gap: 15px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
     /* menu start */
     .menu{
-        margin-bottom: 35px;
+        margin-bottom: 40px;
     }
-    .m-content h3{
-        font-size: 32px;
-    margin-top: 34px;
-     }
-     .l-content{
+   .m-content h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 35px;
+   }
+   .l-content{
         gap: 25px;
-        margin-top: 45px;
-     }
-     .l-content li a{
-       font-size: 16px;
-        }
-     }
-     /* menu end */
-     /* banner start */
-     .b-content h2{
-        font-size: 40px;
-     }
-     .b-content p{
-        margin-top: 22px;
-    margin-bottom: 25px;
-     }
-     .b-btn{
-        font-size: 17px;
-        padding: 10px 13px;
-     } 
-     /* banner end */
+        margin-top: 44px;
+   }
+   .l-content li a{
+    font-size: 16px;
+   }
+   /* menu end */
+   /* banner start */
+   .b-content h2{
+    font-size: 40px;
+   }
+  .b-content p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .b-btn{
+    padding: 8px 12px;
+    font-size: 18px;
+  }
+  .b-img img{
+    margin-top: 32px;
+    margin-bottom: 15px;
+  }
+  /* banner end */
+  .love{
+    margin-bottom: 45px;
+  }
+
+.enjoy h2{
+    font-size: 26px;
+}
+.enjoy p{
+    margin-top: 17px;
+    margin-bottom: 22px;
+}
+.version{
+    font-size: 16px;
+    padding: 8px;
+}
+.version h4{
+    font-size: 18px;
+}
+.builder{
+    font-size: 16px;
+    padding: 8px;
+}
+.builder h4{
+    font-size: 18px;
+}
+.edit{
+    font-size: 16px;
+    padding: 8px;
+}
+.edit h4{
+    font-size: 18px;
+}
+.facts-content{
+    margin-bottom: 45px;
+}
+.facts-content h2{
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+}
+
+
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    /* menu start */
-    .menu{
-        margin-bottom: 50px;
+ /* menu start */
+ .menu{
+    margin-bottom: 50px;
+}
+    .m-content h3{
+        font-size: 38px;
+margin-top: 40px;
     }
-        .m-content h3{
-            font-size: 38px;
-    margin-top: 40px;
-        }
-        /* menu end */
-        /* banner start */
-        .b-content h2{
-            font-size: 44px
-        }
-        .b-content p{
-            margin-top: 26px;
-    margin-bottom: 28px;
-        }
-        .b-btn{
-            padding: 11px 14px;
-            font-size: 18px;
-        }
-        /* banner end */
+    /* menu end */
+    /* banner start */
+    .b-content h2{
+        font-size: 44px
+    }
+    .b-content p{
+        margin-top: 26px;
+margin-bottom: 28px;
+    }
+    .b-btn{
+        padding: 11px 14px;
+        font-size: 18px;
+    }
+    .b-img img{
+        margin-bottom: 35px;
+        margin-top: 45px;
+    }
+    /* banner end */
+    /* feature start */
+    .f-img img{
+        width: 100%;
+    }
+   /* feature end */
+   /* love start */
+   .love{
+    margin-bottom: 80px;
+   }
+   .enjoy h2{
+    font-size: 35px;
+   }
+   .enjoy p{
+    margin-top: 20px;
+    margin-bottom: 25px;
+   }
+   .version{
+    padding: 16px;
+    margin-bottom: 18px;
+   }
+   .builder{
+    padding: 16px;
+    margin-bottom: 18px;
+   }
+   .design{
+    padding: 16px;
+    margin-bottom: 18px;
+   }
+   .edit{
+    padding: 16px;
+    margin-bottom: 18px;
+   }
+   /* love end */
+   /* facts start */
+   .facts-content{
+    margin-bottom: 70px;
+   }
+   .facts-content h2{
+    font-weight: 700;
+    margin-bottom: 21px;
+   }
+   /* facts end */
+
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-   
+    .head{
+        margin-bottom: 80px;
+    }
+    /* feature start */
+    .feature{
+        gap: 45px;
+    }
+   .f-img img{
+    width: 100%;
+   }
+   /* feature end */
+    
 }
 
  /* Extra large devices (large desktops, 1200px and up) */
@@ -102,5 +255,5 @@
 }
  /* Extra Extra large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) {
-    
+
 }
