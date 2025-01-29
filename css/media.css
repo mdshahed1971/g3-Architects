@@ -78,6 +78,19 @@
     .facts-img{
         gap: 15px;
     }
+    /* footer start */
+    footer{
+        max-width: 280px;
+    padding: 20px;
+    }
+
+  footer p{
+    font-size: 16px;
+  }
+  /* footer end */
+
+
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -116,6 +129,7 @@
     margin-bottom: 15px;
   }
   /* banner end */
+  /* love start */
   .love{
     margin-bottom: 45px;
   }
@@ -148,6 +162,7 @@
 .edit h4{
     font-size: 18px;
 }
+/* love end */
 .facts-content{
     margin-bottom: 45px;
 }
@@ -156,6 +171,15 @@
     margin-bottom: 10px;
     font-size: 32px;
 }
+/* footer start */
+  footer{
+    max-width: 450px;
+    padding: 22px;
+  }
+  footer p{
+    font-size: 16px;
+  }
+  /* footer end */
 
 }
 
@@ -230,6 +254,15 @@ margin-bottom: 28px;
     margin-bottom: 21px;
    }
    /* facts end */
+   /* footer start */
+   footer{
+    max-width: 590px;
+    padding: 30px;
+   }
+   footer p{
+    font-size: 18px;
+   }
+   /* footer end */
 
 }
 
@@ -246,6 +279,12 @@ margin-bottom: 28px;
     width: 100%;
    }
    /* feature end */
+   /* footer start */
+   footer{
+    max-width: 870px;
+    padding: 35px;
+   }
+   /* footer end */
     
 }
 
