@@ -35,6 +35,16 @@
     margin-bottom: -1px;
     }
     /* banner end */
+    /* love start */
+    .love{
+        flex-direction: column-reverse;
+    }
+    .love-content{
+        width:100%;
+    }
+    .love-img{
+        width: 100%;
+    }
     .enjoy h2{
         font-size: 26px;
     }
@@ -66,6 +76,7 @@
     .love-img img{
         width: 100%;
     }
+    /* love end */
     /* facts start */
     .facts{
         margin-bottom: 45px;
@@ -151,7 +162,7 @@
   /* banner end */
   /* love start */
   .love{
-    margin-bottom: 45px;
+    margin-bottom: 50px;
   }
 
 .enjoy h2{
@@ -337,6 +348,9 @@ margin-bottom: 28px;
     width: 100%;
    }
    /* feature end */
+   .love{
+    margin-bottom: 120px;
+   }
    /* facts start */
    .facts{
     margin-bottom: 130px;
